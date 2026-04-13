@@ -42,7 +42,7 @@ The `allow(key, now)` method:
 4. If the remaining count is `>= maxRequests`, the request is **blocked** (`false`)
 5. Otherwise, the request is **allowed** (`true`) and `now` is added to the history
 
-✅ Requests with the **same timestamp** count as separate requests.
+Requests with the **same timestamp** count as separate requests.
 
 ---
 
